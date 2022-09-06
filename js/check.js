@@ -13,7 +13,7 @@ function randomNum(minNum,maxNum){
 }
 
 function check() {
-  var right_ans = randomNum(10565, 99344);
+  var right_ans = randomNum(randomNum(10000,15000), randomNum(95000,99999));
   var output_str = '人机验证\n请输入' + String(right_ans) + ':';
   console.log(right_ans);
   var user_ans = prompt(output_str);
